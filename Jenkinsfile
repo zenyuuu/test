@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'aldik15/test'
-        REGISTRY_CREDENTIALS = 'dockerhub-credentials'
+        IMAGE_NAME ='aldik15/test'
+        REGISTRY_CREDENTIALS ='dockerhub-credentials'
     }
 
     stages {
