@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         IMAGE_NAME = 'aldik15/test'
-        REGISTRY_CREDENTIALS = 'dckr_pat_9k3PfZHZG5oHDG7v_tVjXM8CArw'
+        REGISTRY_CREDENTIALS = 'dockerhub-credentials'
     }
 
     stages {
